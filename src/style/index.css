@@ -7,6 +7,7 @@ html {
 body {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
+  background-color: #e9ebee;
 }
 
 * {
@@ -17,4 +18,45 @@ ul {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+  align-items: center;
+  padding: 10px 200px;
+}
+
+.title-container {
+  display: flex;
+}
+
+.register-button {
+  width: 50px;
+  height: 30px;
+}
+
+h1 {
+  margin: 0;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 200px;
+}
+
+.categories {
+  display: flex;
+}
+
+.category {
+  width: 50%;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  align-items: center;
+  padding: 20px;
 }
